@@ -187,4 +187,10 @@
 .list-group-item.active {
     background-color: #203748;
     border-color: #203748;
+    cursor: pointer;
+}
+
+.list-group {
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }

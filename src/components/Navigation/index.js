@@ -20,16 +20,13 @@ import './Navigation.css'
 
 export default class Navigation extends Component {
 
-    state = {
-        isOpen: true
-    }
-
     render() {
+        const {isSiteNavOpen, toggleSiteNav} = this.props
         return (
             <Navbar color="faded" light expand="md">
                 <NavbarBrand href="/">Brecht Carnewal</NavbarBrand>
-                <NavbarToggler onClick={this.toggle} />
-                <Collapse isOpen={this.state.isOpen} navbar>
+                <NavbarToggler onClick={toggleSiteNav} />
+                <Collapse isOpen={isSiteNavOpen} navbar>
                     <Nav className="ml-auto" navbar>
                     <NavItem>
                         <NavLink className="nav-link-small"><Link to="/home">Home</Link></NavLink>

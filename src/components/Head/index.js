@@ -7,7 +7,7 @@ export default class Head extends Component {
     render() {
 
         return (
-            <Jumbotron>
+            <section className='head'>
                 <h2>Hi, Hello, Welcome!</h2> 
                 <h1>I'm Brecht Carnewal.</h1>
                 <p>
@@ -19,7 +19,7 @@ export default class Head extends Component {
                 <p>
                     This is my portfolio, a place where I keep anything I develop. Future projects or project ideas will be mentioned here.
                 </p>
-            </Jumbotron>
+            </section>
         )
     }
 
