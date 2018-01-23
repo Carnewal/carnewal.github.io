@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
+
 import registerServiceWorker from './registerServiceWorker';
 
 import { createStore, combineReducers, applyMiddleware } from 'redux'
@@ -13,6 +12,12 @@ import { Route } from 'react-router'
 import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux'
 
 import reducers from './reducers'
+
+import App from './components/App';
+import Home from './components/Home'
+import Timeline from './components/Timeline'
+import Portfolio from './components/Portfolio'
+import './index.css';
 
 // Create a history of your choosing (we're using a browser history in this case)
 const history = createHistory()
@@ -34,9 +39,7 @@ ReactDOM.render(
   <Provider store={store}>
     { /* ConnectedRouter will use the store from Provider automatically */ }
     <ConnectedRouter history={history}>
-      <div>
-        <Route exact path="/" component={App}/>
-      </div>
+        <Route path="/" component={App}/>
     </ConnectedRouter>
   </Provider>,
   document.getElementById('root')

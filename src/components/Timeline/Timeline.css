@@ -183,3 +183,8 @@
             right: auto;
         }
 }
+
+.list-group-item.active {
+    background-color: #203748;
+    border-color: #203748;
+}
