@@ -16,8 +16,8 @@ export default class Item extends Component {
                     <h4 class="timeline-title">{year} - {title}</h4>
                     </div>
                     <div class="timeline-body">
-                    <p>{description}</p>
-                    <Button bsStyle="link">More</Button>
+                    <p>{description}</p><br/>
+                    <Button>More from {year}</Button>
                     </div>
                 </div>
             </li>

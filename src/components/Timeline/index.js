@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './Timeline.css'
 import Item from './Item/'
+import {Button} from 'react-bootstrap'
 
 
 export default class Timeline extends Component {
@@ -9,7 +10,7 @@ export default class Timeline extends Component {
         {
             year: '2018',
             title: 'A new start.', 
-            description: 'Like every student here in Ghent, my new year started with an exam period. After lying awake for a whole night contemplating my existence and future, I decided that the course I was following wasn\'t for me.'
+            description: 'Like every student here in Ghent, my new year started with an exam period. After lying awake for a whole night contemplating my existence and future, I decided that the course I was following wasn\'t for me.',
         },
         {
             year: '2017',
@@ -58,7 +59,11 @@ export default class Timeline extends Component {
         return (
             <section id='timeline'>
                 <div className='container'>
-                    <ul className='timeline'>
+
+                    <p>Here's a blast from the past, but I'm sure the <Button>Future</Button> has a lot in store for me as well!</p>
+
+                    <ul className='timeline'>    
+
                         {this.entries
                             .map((e,i) => <Item {...e} inverted={!!+(i%2)}/>)
                         }
