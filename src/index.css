@@ -7,3 +7,15 @@ body {
 section {
   margin-top: 1.5em;
 }
+
+.primarycolor, a {
+  color: #3399cc;
+}
+
+.primarycolor:hover, a:hover {
+  color: #203748;
+}
+
+.clickable {
+  cursor: pointer;
+}

@@ -3,7 +3,6 @@ import './Timeline.css'
 import Item from './Item/'
 import {Button, ListGroup, ListGroupItem, Jumbotron} from 'reactstrap'
 import ReactMarkdown from 'react-markdown'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 /**
  * Snippet by luisrudge

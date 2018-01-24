@@ -3,16 +3,16 @@ const initialState = {
         {title: 'Build something with **WebGL** or a WebGL Framework like **Three, WHS**. **Unity** would also be an interesting platform to know about. \n\nIt has always been a goal to make a fun (Local) Multiplayer game in the browser to play with friends.'},
         {title: 'Learn C/C++ thoroughly to later work with **WebAssembly**. \n\nAn idea I had was to port a childhood game ([Wolf:ET](https://github.com/id-Software/Enemy-Territory)) to the web with **emscripten**.'},
         {title: 'Make something cool with my **esp8266** Wi-Fi module. '},
+        {title: 'Bring my dad\'s [website](http://www.carnewal.com) to the current decade with technologies like **React** and **Node.js**'},
         {title: 'Get my **spaghetti** recipe on point.'},
         {title: 'Stick to the **motto**. *"Failure is not fatal, but failure to change might be" -John Wooden*'},
-        {title: 'Look for more people who can **mentor** me throughout my journey.'},
     ],
     pastItems: [
         {
             year: '2018',
             icon: 'rocket',
             title: 'A new start.', 
-            description: 'The coding itch is bigger than ever and I decided it\'s time to use my experience  \n\n*The year is still going so who knows what 2018 is going to bring?!*',
+            description: 'The coding itch is bigger than ever and I decided it\'s time to use my experience.  \n\n*The year is still going so who knows what 2018 will bring?!*',
         },
         {
             year: '2017',

@@ -1,4 +1,4 @@
 import system from './system'
 import timeline from './timeline'
-
-export default {system, timeline}
+import portfolio from './portfolio'
+export default {system, timeline, portfolio}

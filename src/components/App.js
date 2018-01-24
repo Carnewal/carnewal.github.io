@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import Head from './Head'
+import Navigation from '../containers/Navigation'
+import Portfolio from '../containers/Portfolio'
 import Timeline from '../containers/Timeline'
-import Portfolio from './Portfolio'
 import Home from './Home'
 
-import Navigation from '../containers/Navigation'
 
 import {Route} from 'react-router'
 

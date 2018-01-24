@@ -40,7 +40,7 @@ export default class Navigation extends Component {
                     <NavItem>
                         <NavLink target="_blank" href="https://www.linkedin.com/in/brechtcarnewal/">
                             <FontAwesome
-                                className='super-crazy-colors'
+                                className='primarycolor'
                                 name='linkedin'
                                 size='2x'
                             />
@@ -49,7 +49,7 @@ export default class Navigation extends Component {
                     <NavItem>
                         <NavLink target="_blank" href="https://github.com/Carnewal">
                             <FontAwesome
-                                className='super-crazy-colors'
+                                className='primarycolor'
                                 name='github'
                                 size='2x'
                             />
@@ -58,7 +58,7 @@ export default class Navigation extends Component {
                     <NavItem>
                         <NavLink target="_blank" href="https://twitter.com/BCarnewal">
                             <FontAwesome
-                                className='super-crazy-colors'
+                                className='primarycolor'
                                 name='twitter'
                                 size='2x'
                             />
@@ -67,7 +67,7 @@ export default class Navigation extends Component {
                     <NavItem>
                         <NavLink target="_blank" href="https://www.facebook.com/brecht.carnewal">
                             <FontAwesome
-                                className='super-crazy-colors'
+                                className='primarycolor'
                                 name='facebook'
                                 size='2x'
                             />
