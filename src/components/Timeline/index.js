@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './Timeline.css'
 import Item from './Item/'
-import {Button, ListGroup, ListGroupItem, Jumbotron} from 'reactstrap'
+import {Button, ListGroup, ListGroupItem, Collapse} from 'reactstrap'
 import ReactMarkdown from 'react-markdown'
 
 /**
@@ -25,7 +25,11 @@ export default class Timeline extends Component {
                         <br/>
                         <ListGroup>
                             <ListGroupItem onClick={toggleTimelineFuture} active><h5>Future goals {!isTimelineFutureOpen && '(click to expand)' || '(click to close)'}</h5></ListGroupItem>
-                            {isTimelineFutureOpen && futureItems.map((f,i) => <ListGroupItem key={i}><ReactMarkdown source={f.title} /></ListGroupItem>)}
+                            
+                            
+                            <Collapse isOpen={isTimelineFutureOpen}>
+                                {futureItems.map((f,i) => <ListGroupItem key={i}><ReactMarkdown source={f.title} /></ListGroupItem>)}
+                            </Collapse>
                         </ListGroup>
                     <ul className='timeline'>    
                         {pastItems

@@ -61,17 +61,17 @@ export default class Portfolio extends Component {
                 <div className='container'>
                 <h1>My portfolio.</h1>
                 <br/>
-                <p>These are the creations I'm proud of and some of the tools I used to accomplish them.</p>
+                <p>These are the creations I'm proud of and some of the things that helped me accomplish them.</p>
                 <h4>
                     {tags.map(
                         (t, i) => (
                             <span><Button 
-                                    color={tagFilter.includes(i) ? 'primary' : 'secondary'}
+                                    color='primary'
                                     outline={!tagFilter.includes(i)} 
                                     className='tagbtn' 
                                     onClick={this.handleTagClick(i)}>
                                     {t} 
-                            </Button> </span>
+                                </Button> </span>
                         )
                     )}
                 </h4>

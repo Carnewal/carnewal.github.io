@@ -10,7 +10,7 @@ export default class Item extends Component {
         const {year, title, subtitle, description, img, links} = this.props
         return (
 
-            <Col sm="12" md="6" lg="4">
+            <Col xs="12" md="6" lg="4">
             <Card>
                 <CardBody>
                     <CardTitle>{title} <small className='text-muted'>({year})</small></CardTitle>
