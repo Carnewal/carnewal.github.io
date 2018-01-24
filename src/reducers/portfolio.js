@@ -15,7 +15,7 @@ const initialState = [
         title: 'Portfolio',
         subtitle: 'This website!',
         description: 'I made this portfolio to refresh my **React** and **Redux** knowledge. It also uses `react-router` with history, `reactstrap` for **Bootstrap** 4 components and `react-markdown` to style descriptions like this one!', 
-        img: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180', 
+        img: '/img/uc.png', 
         links: [
             {icon: 'globe', link: 'https://carnewal.github.io/'},
             {icon: 'github', link: 'https://github.com/Carnewal/carnewal.github.io' }
@@ -32,13 +32,14 @@ const initialState = [
         ]
     },
     {
-        year: '2017', 
+        year: '2016', 
         title: 'PieSync',
         subtitle: 'Internship and student job.',
-        description: 'My task was to migrate the Dashboard app\'s **Ruby on Rails** server rendered views to the client with **JavaScript**: I learned all about **React**, **Redux**, **Redux Saga**, **Git** and a bit of **Docker**. Working in a **team** of great people was a great experience I\'ll never forget.', 
+        description: 'My task was to migrate the Dashboard app\'s **Ruby on Rails** server rendered views to the client with **JavaScript**: I learned all about **React**, **Redux**, **Redux Saga**, **Git** and a bit of **Docker**. Working in a **team** of great people was an amazing experience I\'ll never forget.', 
         img: 'img/piesync.png', 
         links: [
-            {icon: 'globe', link: 'https://app.piesync.com/'}
+            {icon: 'globe', link: 'https://app.piesync.com/'},
+            {icon: 'image', link: '/img/peter.png'},
         ]
     },
     {
@@ -55,7 +56,7 @@ const initialState = [
         year: '2015', 
         title: 'Hack the future',
         subtitle: 'Hackathon (mobile category).',
-        description: 'To test our knowledge, my friend Laurens and I **team**ed up and attended Hack The Future where we had to create a frontend for an existing API. We chose to create an **Angular** webapp as well as an **Android** mobile app (using `Retrofit` for API calls).', 
+        description: 'To test our knowledge, my friend Laurens and I **team**ed up and attended Hack The Future where we had to create a frontend for an existing API. We chose to create an **Angular** webapp as well as an **Android** mobile app (using `Retrofit` for API calls). The code was lost through the years, the memories haven\'t!', 
         img: 'img/htf.png', 
     },
     {

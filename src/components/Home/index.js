@@ -19,11 +19,14 @@ class Home extends Component {
                 </p>
                 <br/>
                 <p>
-                    If you'd like to contact me, I'll be happy to talk to you through <a href='https://www.linkedin.com/in/brechtcarnewal/' target='_blank'>LinkedIn</a> or any of these channels:
+                    If you'd like to contact me, I'll be happy to talk to you through any of these channels:
                 </p>
                 <Row class>
                     <Col md={{size: 8, offset: 2}} sm={{size:6, offset: 3}}>
                         <ListGroup>
+                            <ListGroupItem>
+                                <a href='https://www.linkedin.com/in/brechtcarnewal/' target='_blank'>LinkedIn</a> 
+                            </ListGroupItem>
                             <ListGroupItem>
                                 0483 51 91 15
                             </ListGroupItem>

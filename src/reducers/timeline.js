@@ -7,7 +7,7 @@ const initialState = {
         {title: 'Bring my dad\'s [website](http://www.carnewal.com) to the current decade with technologies like **React** and **Node.js**'},
         {title: 'Get my **spaghetti** recipe on point.'},
         {title: 'Stick to the **motto**. *"Failure is not fatal, but failure to change might be" -John Wooden*'},
-        {title: 'Create something that will change the world.'},
+        {title: '*Create something that will make the world a better place. Also, world peace :-)* .'},
     ],
     pastItems: [
         {
