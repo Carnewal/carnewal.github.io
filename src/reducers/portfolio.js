@@ -2,12 +2,13 @@
 const initialState = [
     {
         year: '2018', 
-        title: '(WIP) Tonhuis',
+        title: 'Tonhuis',
         subtitle: 'A website for my uncle\'s business.',
-        description: 'Currently a static **HTML and CSS** website powered by **Bootstrap**, it will soon have an **Angular** (5) frontend using `Contentful` as **CMS**.', 
-        img: '/img/tonhuis.png', 
+        description: 'A single-page website powered by **Angular** 5 and **Bootstrap** with `Directus`, a headless **PHP** **CMS** that\'s user friendly and provides the right amount of flexibility for developers.', 
+        img: 'img/tonhuis.png', 
         links: [
-            {icon: 'globe', link: 'http://www.tonhuis.be/'}
+            {icon: 'globe', link: 'http://www.tonhuis.be/'},
+            {icon: 'github', link: 'https://github.com/Carnewal/Tonhuis'}
         ]
     },
     {
@@ -15,10 +16,10 @@ const initialState = [
         title: 'Portfolio',
         subtitle: 'This website!',
         description: 'I made this portfolio to refresh my **React** and **Redux** knowledge. It also uses `react-router` with history, `reactstrap` for **Bootstrap** 4 components and `react-markdown` to style descriptions like this one!', 
-        img: '/img/uc.png', 
+        img: 'img/portfolio.png', 
         links: [
-            {icon: 'globe', link: 'https://carnewal.github.io/'},
-            {icon: 'github', link: 'https://github.com/Carnewal/carnewal.github.io' }
+            {icon: 'globe', link: 'https://carnewal.github.io/Portfolio'},
+            {icon: 'github', link: 'https://github.com/Carnewal/Portfolio' }
         ]
     },
     {
@@ -35,7 +36,7 @@ const initialState = [
         year: '2016', 
         title: 'PieSync',
         subtitle: 'Internship and student job.',
-        description: 'My task was to migrate the Dashboard app\'s **Ruby on Rails** server rendered views to the client with **JavaScript**: I learned all about **React**, **Redux**, **Redux Saga**, **Git** and a bit of **Docker**. Working in a **team** of great people was an amazing experience I\'ll never forget.', 
+        description: 'My task was to migrate the Dashboard app\'s **Ruby on Rails** server rendered views to the client. I learned all about writing and **Testing** code with **React**, **Redux**, **Redux Saga**, `mocha`, `chai`, `enzyme` and `sinon`. Working in a **team** of great people and using tools like **Git** and **Slack** was an amazing experience I\'ll never forget.', 
         img: 'img/piesync.png', 
         links: [
             {icon: 'globe', link: 'https://app.piesync.com/'},
@@ -73,7 +74,7 @@ const initialState = [
         year: '2014', 
         title: 'Carnewal',
         subtitle: 'Website for my dad\'s business.',
-        description: 'In 2014 this site was still running flash. I decided this wasn\'t OK and made a **HTML and CSS** clone served with **PHP**. I was very proud at the time, even the **MySQL** queries are made by hand!', 
+        description: 'In 2014 this site\'s frontend was still running flash. I decided this wasn\'t OK and made a **HTML and CSS** clone served with **PHP**. I was very proud at the time, even the **MySQL** queries are made by hand!', 
         img: 'img/carnewal.png', 
         links: [
             {icon: 'globe', link: 'http://www.carnewal.com'}
